@@ -2,17 +2,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; 
   margin: 0;
+  height: 100vh;
   background: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
 }
 
 .container {
-  width: 350px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
   border: 16px solid rgba(255, 255, 255, 0.75);
   border-radius: 32px 0;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
+  width: 350px;
 }
 
 .container img {
